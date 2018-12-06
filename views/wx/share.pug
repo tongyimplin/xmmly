@@ -1,1 +1,10 @@
-header(class="aui-bar aui-bar-nav") 顶部导航栏
+extends ../layout1
+block content
+    header(class="aui-bar aui-bar-nav") 主页
+    div(class="aui-content-padded")
+        p(class="aui-text-success") 您今天已由【xxx】为您助力成功
+        p(class="aui-text-danger") 您今天尚未打卡，请分享到助力群邀请好友为您打卡
+        p(class="aui-text-danger") 当前用户已由【xxx】打卡成功，可以保留您的打卡机会下次使用
+        p(class="aui-text-danger") 您已为该用户打过卡，重复打卡无效，请留意
+    div(class="aui-row" style="text-align:center")
+        a(class="aui-btn aui-btn-primary") 前往助力
